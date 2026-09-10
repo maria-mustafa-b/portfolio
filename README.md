@@ -10,7 +10,7 @@
   <br />
 
   [![Live Portfolio](https://img.shields.io/badge/Live_Portfolio-Open_Site-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://maria-mustafa-portfolio.netlify.app)
-  [![Resume](https://img.shields.io/badge/Resume-View_PDF-1F6FEB?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](assets/Maria-Mustafa-Resume.pdf)
+  [![Resume](https://img.shields.io/badge/Resume-Open_Resume-1F6FEB?style=for-the-badge)](resume.html)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Maria_Mustafa-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maria-mustafa-baranwala)
 
   <br />
@@ -31,7 +31,7 @@
 The site is deployed as a static production build on Netlify with HTTPS enabled on the public `netlify.app` URL.
 
 <p align="center">
-  <img src="assets/portfolio-preview.webp" alt="Maria Mustafa cybersecurity portfolio preview" width="900" />
+  <img src="https://maria-mustafa-portfolio.netlify.app/assets/portfolio-preview.webp" alt="Maria Mustafa cybersecurity portfolio preview" width="900" />
 </p>
 
 ## About this project
@@ -82,14 +82,12 @@ An internal hotel-rate search application built around an admin-controlled brows
 
 ```text
 portfolio/
-├── assets/
-│   ├── Maria-Mustafa-Resume.pdf
-│   └── portfolio-preview.webp
 ├── .gitignore
 ├── favicon.svg
 ├── index.html
 ├── netlify.toml
 ├── README.md
+├── resume.html
 ├── robots.txt
 ├── script.js
 ├── sitemap.xml
@@ -125,13 +123,15 @@ For a Git-connected Netlify workflow:
 3. No build command is required because the site is static.
 4. Netlify publishes the production deployment and provides HTTPS automatically on the `netlify.app` subdomain.
 
-The included `netlify.toml` defines the publish directory and a small set of security-focused HTTP response headers.
+The included `netlify.toml` defines the publish directory and security-focused HTTP response headers.
 
 ## Resume
 
-My current resume is included in the repository and linked directly from the website.
+My current resume is included as a recruiter-friendly, printable web resume and linked directly from the website.
 
-**[View Resume →](assets/Maria-Mustafa-Resume.pdf)**
+**[View Resume →](resume.html)**
+
+The resume page includes a **Print / Save as PDF** action for recruiters or for generating a local PDF copy.
 
 ## Design goals
 
