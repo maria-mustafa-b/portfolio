@@ -10,7 +10,6 @@
   <br />
 
   [![Live Portfolio](https://img.shields.io/badge/Live_Portfolio-Open_Site-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://maria-mustafa-portfolio.netlify.app)
-  [![Resume](https://img.shields.io/badge/Resume-Open_Resume-1F6FEB?style=for-the-badge)](resume.html)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Maria_Mustafa-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maria-mustafa-baranwala)
 
   <br />
@@ -83,7 +82,6 @@ portfolio/
 ├── index.html
 ├── netlify.toml
 ├── README.md
-├── resume.html
 ├── robots.txt
 ├── script.js
 ├── sitemap.xml
