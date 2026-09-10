@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Maria Mustafa — cybersecurity student, aspiring penetration tester, and security-focused software builder in Dubai." />
+  <meta name="theme-color" content="#071018" />
+  <link rel="canonical" href="https://maria-mustafa-portfolio.netlify.app" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Maria Mustafa | Cybersecurity Portfolio" />
+  <meta property="og:description" content="Cybersecurity portfolio featuring penetration testing, network security, Linux infrastructure, Q-SCOUT, and automation projects." />
+  <meta property="og:url" content="https://maria-mustafa-portfolio.netlify.app" />
+  <meta property="og:image" content="https://maria-mustafa-portfolio.netlify.app/assets/portfolio-preview.webp" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>Maria Mustafa | Cybersecurity Portfolio</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <script>document.documentElement.classList.add("js")</script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Maria Mustafa home">
+        <span class="brand-mark">MM</span>
+        <span class="brand-name">Maria Mustafa</span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation menu">
+        <span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a href="assets/Maria-Mustafa-Resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero shell section-pad">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> Cybersecurity · Dubai, UAE</p>
+        <h1>Building secure systems.<br /><span>Learning how to break them responsibly.</span></h1>
+        <p class="hero-lead">
+          I’m Maria Mustafa, a cybersecurity student and aspiring penetration tester with hands-on experience in web security, Linux infrastructure, network analysis, and security-focused software development.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
+          <a class="btn btn-ghost" href="https://github.com/maria-mustafa-b" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-ghost" href="assets/Maria-Mustafa-Resume.pdf" target="_blank" rel="noreferrer">View Resume <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-meta" aria-label="Highlights">
+          <div><strong>50+</strong><span>PortSwigger labs</span></div>
+          <div><strong>2×</strong><span>Hackathon podiums</span></div>
+          <div><strong>2026</strong><span>Springer publication</span></div>
+        </div>
+      </div>
+
+      <aside class="terminal-card reveal" aria-label="Portfolio introduction terminal">
+        <div class="terminal-top"><span></span><span></span><span></span><p>maria@portfolio:~</p></div>
+        <div class="terminal-body">
+          <p><span class="prompt">$</span> whoami</p>
+          <p class="output">Maria Mustafa</p>
+          <p><span class="prompt">$</span> focus --current</p>
+          <p class="output">Offensive Security · Pentesting · Secure Engineering</p>
+          <p><span class="prompt">$</span> stack --top</p>
+          <p class="output">Python · Burp Suite · Nmap · Linux · Docker</p>
+          <p><span class="prompt">$</span> status</p>
+          <p class="output success">● Open to cybersecurity opportunities</p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section shell" id="about">
+      <div class="section-kicker reveal">01 / About</div>
+      <div class="about-grid">
+        <h2 class="section-title reveal">Security-first thinking,<br />with a builder’s mindset.</h2>
+        <div class="about-copy reveal">
+          <p>
+            I’m pursuing a Bachelor of Computer Science in Cybersecurity at the University of Wollongong in Dubai. My work sits at the intersection of offensive security, infrastructure, networking, and practical software engineering.
+          </p>
+          <p>
+            Beyond coursework, I’ve conducted authorized security testing, rebuilt Docker-based infrastructure, shipped hackathon products, and published research on AI-assisted navigation for visually impaired users.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="projects">
+      <div class="section-heading reveal">
+        <div>
+          <div class="section-kicker">02 / Selected work</div>
+          <h2 class="section-title">Projects that show how I think.</h2>
+        </div>
+        <p>Recent security, automation, and AI work — focused on solving real technical problems rather than demo-only builds.</p>
+      </div>
+
+      <div class="featured-grid">
+        <article class="project-card project-card-large reveal">
+          <div class="project-topline">
+            <span class="project-index">01</span>
+            <span class="project-tag">Cybersecurity · 2026</span>
+          </div>
+          <div class="project-copy">
+            <h3>Q‑SCOUT</h3>
+            <p class="project-subtitle">Network discovery & cryptographic posture scanner</p>
+            <p>
+              Built a Python-based defensive reconnaissance tool that accepts IPv4, hostname, CIDR, or file targets; safely discovers exposed services; inspects TLS metadata; and classifies observed cryptography for post-quantum readiness.
+            </p>
+            <ul class="feature-list">
+              <li>Bounded concurrent port discovery with explicit timeouts</li>
+              <li>Banner observation, rDNS, reachability, and local-L2 MAC discovery</li>
+              <li>TLS certificate, cipher, key, signature, SAN, and fingerprint analysis</li>
+              <li>Deterministic JSON/CSV reporting with algorithm-level reasoning</li>
+              <li>Test suite and controlled local TLS validation environment</li>
+            </ul>
+            <div class="tech-row"><span>Python</span><span>TLS</span><span>Networking</span><span>Cryptography</span><span>Pytest</span></div>
+          </div>
+          <a class="project-link" href="https://github.com/maria-mustafa-b/q-scout" target="_blank" rel="noreferrer" aria-label="View Q-SCOUT on GitHub">View repository <span>↗</span></a>
+        </article>
+
+        <article class="project-card project-card-large reveal">
+          <div class="project-topline">
+            <span class="project-index">02</span>
+            <span class="project-tag">Automation · 2026</span>
+          </div>
+          <div class="project-copy">
+            <h3>Airwings Hotel Search</h3>
+            <p class="project-subtitle">Internal hotel-rate retrieval and client search tool</p>
+            <p>
+              Developed a single-user internal application that automates hotel-rate retrieval through an admin-controlled browser session while exposing a clean, source-agnostic search interface to the client user.
+            </p>
+            <ul class="feature-list">
+              <li>FastAPI backend with Playwright-driven browser automation</li>
+              <li>Structured search for city, hotel, dates, and occupancy</li>
+              <li>Admin-controlled authenticated browser session separated from client access</li>
+              <li>Automated search-state synchronization and result extraction</li>
+              <li>Linux service deployment with Uvicorn and systemd</li>
+            </ul>
+            <div class="tech-row"><span>Python</span><span>FastAPI</span><span>Playwright</span><span>Linux</span><span>Systemd</span></div>
+          </div>
+          <span class="project-link muted-link">Private internal project <span>◌</span></span>
+        </article>
+      </div>
+
+      <div class="secondary-grid">
+        <article class="mini-project reveal">
+          <div class="mini-head"><span>03</span><span>Hackathon · 1st Place</span></div>
+          <h3>StudySync AI</h3>
+          <p>AI-powered academic assistant with generated study plans, syllabus parsing, note summaries, flashcards, quizzes, workload monitoring, and student analytics.</p>
+          <div class="tech-row"><span>Azure OpenAI</span><span>Vercel</span></div>
+        </article>
+
+        <article class="mini-project reveal">
+          <div class="mini-head"><span>04</span><span>Hackathon · 2nd Place</span></div>
+          <h3>Visi‑Tech</h3>
+          <p>Multimodal accessibility application combining OCR, translation, speech generation, and YOLOv8-based road-sign detection.</p>
+          <div class="tech-row"><span>Streamlit</span><span>YOLOv8</span><span>OCR</span><span>gTTS</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell" id="experience">
+      <div class="section-kicker reveal">03 / Experience</div>
+      <div class="experience-layout">
+        <h2 class="section-title reveal">Hands-on security<br />and infrastructure work.</h2>
+        <div class="timeline reveal">
+          <article class="timeline-item">
+            <div class="timeline-date">Feb 2026 — Present</div>
+            <div>
+              <h3>Cybersecurity Intern</h3>
+              <p class="company">OpenXpert Solutions · Dubai, UAE</p>
+              <p>Conducting authorized reconnaissance, vulnerability assessment, web security testing, and documenting findings in professional security reports.</p>
+              <p>Rebuilt and manage Docker-based server infrastructure across services including Gitea, Mailcow, Nginx, Prometheus, Grafana, and Loki, alongside Linux administration and troubleshooting.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">2025 — 2028</div>
+            <div>
+              <h3>Bachelor of Computer Science — Cybersecurity</h3>
+              <p class="company">University of Wollongong in Dubai</p>
+              <p>Developing foundations across programming, networking, systems, security, software design, and technical problem-solving while pursuing practical cybersecurity work beyond the curriculum.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="skills">
+      <div class="section-heading reveal">
+        <div>
+          <div class="section-kicker">04 / Toolkit</div>
+          <h2 class="section-title">What I work with.</h2>
+        </div>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card reveal"><span>01</span><h3>Offensive Security</h3><p>Penetration Testing · Vulnerability Assessment · Web Application Security · OWASP Top 10 · Threat Analysis</p></article>
+        <article class="skill-card reveal"><span>02</span><h3>Security Tools</h3><p>Burp Suite · Nmap · Metasploit · Wireshark · Elastic Defend · Kali Linux</p></article>
+        <article class="skill-card reveal"><span>03</span><h3>Systems & Infra</h3><p>Linux · Docker · Nginx · Gitea · Mailcow · Prometheus · Grafana · Loki · VirtualBox · VMware</p></article>
+        <article class="skill-card reveal"><span>04</span><h3>Programming</h3><p>Python · C++ · SQL · PowerShell · Bash · Git · GitHub</p></article>
+      </div>
+    </section>
+
+    <section class="section shell" id="proof">
+      <div class="section-kicker reveal">05 / Highlights</div>
+      <div class="proof-grid">
+        <article class="proof-card reveal">
+          <span class="proof-label">Publication</span>
+          <h3>Springer Nature · ISDIA 2026</h3>
+          <p>Lead research author of “Accessible Navigation with AI: Context-Aware Guidance for Individuals with Visual Impairments.”</p>
+        </article>
+        <article class="proof-card reveal">
+          <span class="proof-label">Practical Security</span>
+          <h3>PortSwigger Web Security Academy</h3>
+          <p>Completed 50+ hands-on labs across SQL injection, XSS, authentication, access control, SSRF, XXE, path traversal, and web cache deception.</p>
+        </article>
+        <article class="proof-card reveal">
+          <span class="proof-label">Recognition</span>
+          <h3>Hackathons & Engineering</h3>
+          <p>1st Place — ASUS Bounty Challenge, 2nd Place — Zayed University Innovation Hackathon, and Sustainability Award — Green Power Challenge.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact section shell" id="contact">
+      <div class="contact-card reveal">
+        <p class="eyebrow"><span class="status-dot"></span> Open to cybersecurity opportunities</p>
+        <h2>Interested in security work that goes beyond the checklist.</h2>
+        <p>I’m currently building deeper offensive-security experience and looking for opportunities where I can contribute, learn fast, and work on real systems.</p>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="mailto:mariamustafa404@gmail.com">mariamustafa404@gmail.com <span>↗</span></a>
+          <a class="text-link" href="https://www.linkedin.com/in/maria-mustafa-baranwala" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a class="text-link" href="https://github.com/maria-mustafa-b" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a class="text-link" href="assets/Maria-Mustafa-Resume.pdf" target="_blank" rel="noreferrer">Resume ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer shell">
+    <p>© <span id="year"></span> Maria Mustafa</p>
+    <p>Designed & built with plain HTML, CSS, and JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
