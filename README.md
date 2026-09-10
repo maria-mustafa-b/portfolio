@@ -30,10 +30,6 @@
 
 The site is deployed as a static production build on Netlify with HTTPS enabled on the public `netlify.app` URL.
 
-<p align="center">
-  <img src="https://maria-mustafa-portfolio.netlify.app/assets/portfolio-preview.webp" alt="Maria Mustafa cybersecurity portfolio preview" width="900" />
-</p>
-
 ## About this project
 
 This portfolio presents my work as a cybersecurity student and aspiring penetration tester in a format that goes beyond a traditional resume. It focuses on practical security work, infrastructure experience, technical projects, research, and achievements while keeping the interface fast, accessible, and intentionally minimal.
@@ -124,14 +120,6 @@ For a Git-connected Netlify workflow:
 4. Netlify publishes the production deployment and provides HTTPS automatically on the `netlify.app` subdomain.
 
 The included `netlify.toml` defines the publish directory and security-focused HTTP response headers.
-
-## Resume
-
-My current resume is included as a recruiter-friendly, printable web resume and linked directly from the website.
-
-**[View Resume →](resume.html)**
-
-The resume page includes a **Print / Save as PDF** action for recruiters or for generating a local PDF copy.
 
 ## Design goals
 
